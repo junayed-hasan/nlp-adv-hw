@@ -6,8 +6,8 @@ Self-Attention Profiling Script
 This script profiles the computational complexity, memory usage, and wall clock time
 of self-attention mechanisms as a function of input sequence length.
 
-Author: NLP Advanced HW Assignment
-Date: September 2025
+Author: Mohammad Junayed Hasan
+Date: September 3, 2025
 """
 
 import torch
