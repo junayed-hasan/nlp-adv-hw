@@ -125,9 +125,9 @@ def measure_memory_usage(device: torch.device) -> float:
 
 def profile_self_attention(seq_lengths: List[int], 
                          device: torch.device,
-                         num_runs: int = 3,
-                         batch_size: int = 2,
-                         d_model: int = 128) -> Dict:
+                         num_runs: int = 10,
+                         batch_size: int = 1,
+                         d_model: int = 512) -> Dict:
     """
     Profile self-attention for different sequence lengths.
     
@@ -420,12 +420,12 @@ def main():
     
     # Profile on CPU
     print("\nProfiling on CPU...")
-    cpu_results = profile_self_attention(seq_lengths, cpu_device, num_runs=3)
+    cpu_results = profile_self_attention(seq_lengths, cpu_device, num_runs=10)
     
     # Profile on GPU (if available)
     if gpu_available:
         print("\nProfiling on GPU...")
-        gpu_results = profile_self_attention(seq_lengths, gpu_device, num_runs=3)
+        gpu_results = profile_self_attention(seq_lengths, gpu_device, num_runs=10)
     else:
         gpu_results = cpu_results.copy()
         gpu_results['device'] = 'cpu_fallback'
