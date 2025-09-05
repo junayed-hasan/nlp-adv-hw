@@ -4,7 +4,7 @@ This repository contains code for various NLP experiments and analyses including
 
 **Author:** Mohammad Junayed Hasan  
 **Date:** September 2025  
-**GitHub:** https://github.com/junayed-hasan/self-attention-profiling
+**GitHub:** https://github.com/junayed-hasan/nlp-adv-hw
 
 ## Repository Structure
 
@@ -239,7 +239,7 @@ python scifact_ir_system.py
 
 - **Author**: Mohammad Junayed Hasan
 - **Date**: September 2025
-- **GitHub**: https://github.com/junayed-hasan/self-attention-profiling
+- **GitHub**: https://github.com/junayed-hasan/nlp-adv-hw
 - **Purpose**: Academic assignments for NLP Advanced course
 - **Focus**: Transformer analysis, fine-tuning strategies, and information retrieval systems
 - **Output**: Research-quality analysis, performance metrics, and comparative evaluations
