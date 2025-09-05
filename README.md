@@ -1,4 +1,4 @@
-# NLP Advanced Homework
+# NLP: Advances in Self-supervised Models
 
 This repository contains code for various NLP experiments and analyses including self-attention profiling, transformer fine-tuning, and information retrieval systems.
 
